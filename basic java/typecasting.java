@@ -36,5 +36,19 @@ class typecasting{
 
         /*type casting are sequence of store data types it automatically --->auto & <--- manual */
 
+
+        /*ASCII values char to all data type convert */
+        /*char to int->float->double->string */
+        char ch ='A';
+        int r = ch;
+        System.out.println(ch); //A
+        System.out.println(r);  //65
+
+        int g = 97;
+        char ch1 = (char)g;
+        System.out.println(g);
+        System.out.println(ch1);
+
+
     }
 }
